@@ -1,0 +1,14 @@
+#! /usr/bin/env python
+# encoding: utf-8
+# Jaap Haitsma, 2008
+# Michael Kanis, 2008
+
+obj = bld.new_task_gen('cc', 'program')
+obj.find_sources_in_dirs('.') # take the sources in the current folder
+obj.threading = True
+obj.vapi_dirs = '../vapi'
+obj.packages = 'gtk+-2.0 dbus-glib-1 gee-1.0 libglade-2.0 gmodule-2.0 ' \
+  'gio-unix-2.0 config partition'
+obj.target = 'gnome-format'
+obj.uselib = 'GTK GLIB DBUS GEE GLADE GMODULE GIO_UNIX PARTED'
+

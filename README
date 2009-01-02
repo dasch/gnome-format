@@ -1,0 +1,25 @@
+README for gnome-format
+-----------------
+
+Simple formatting program for gnome. Supports only removable devices such as
+USB-Sticks, SD-Cards and similar devices.
+
+gnome-format currently requires:
+  - glib-2.0 >= 2.10.0
+  - gtk+-2.0 >= 2.10.0
+  - dbus-glib-1
+  - libgee-1.0
+  - libglade-2.0
+  - gmodule-2.0
+  - gnome-desktop-2.0
+  - libparted
+
+If you want to compile it from SVN, you probably also need valac, the Vala
+compiler.
+
+//TODO: make a new website
+See http://live.gnome.org/gnome-format
+This site relates to a gnome-format written in C by Paul Betts. Unfortunately
+Paul stopped working on it because of lack of time. This gnome-format here is a
+complete rewrite in Vala (because I wanted to learn Vala :-)).
+However his goals were the same, perhaps we can reuse the Gnome Live page.
