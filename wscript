@@ -35,6 +35,7 @@ def configure(conf):
 	conf.check_cfg(package='gmodule-2.0', uselib_store='GMODULE', mandatory=1, args='--cflags --libs')
 	conf.check_cfg(package='gio-unix-2.0', uselib_store='GIO_UNIX', mandatory=1, args='--cflags --libs')
 	conf.check_cfg(package='libparted', uselib_store='PARTED', mandatory=1, args='--cflags --libs')
+	conf.check_cfg(package='gthread-2.0', uselib_store='GTHREAD', mandatory=1, args='--cflags --libs')
 	
 	conf.define('PACKAGE_NAME', APPNAME)
 	conf.define('GETTEXT_PACKAGE', APPNAME)

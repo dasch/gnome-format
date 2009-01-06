@@ -10,5 +10,5 @@ obj.vapi_dirs = '../vapi'
 obj.packages = 'gtk+-2.0 dbus-glib-1 gee-1.0 libglade-2.0 gmodule-2.0 ' \
   'gio-unix-2.0 config partition'
 obj.target = 'gnome-format'
-obj.uselib = 'GTK GLIB DBUS GEE GLADE GMODULE GIO_UNIX PARTED'
+obj.uselib = 'GTK GLIB DBUS GEE GLADE GMODULE GIO_UNIX PARTED GTHREAD'
 
