@@ -7,7 +7,7 @@ import os
 import intltool
 
 # the following two variables are used by the target "waf dist"
-VERSION='0.1.0'
+VERSION='0.1.1'
 APPNAME='gnome-format'
 
 # these variables are mandatory ('/' are converted automatically)
